@@ -1,0 +1,47 @@
+
+#home{
+    
+    background-color: #1E222B;
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#search_bar {
+    display: none;
+    padding-top: 10px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    transition: all 0.3s ease-in-out;
+    
+}
+
+#search_bar label{
+    color: white;
+    margin-left: -40px;
+}
+
+#search{
+    width: 500px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: gray;
+    border: none;
+    padding-left: 10px;
+}
+
+#search::placeholder{
+    color: white;
+    padding-left: 20px;
+}
+
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+    display: none;
+}
+
+
