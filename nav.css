@@ -110,6 +110,13 @@ nav ul li a{
 #menu-toggle{
     display: none;
     color: white;
+    
+}
+
+#menu-toggle button{
+    background: none;
+    border: none;
+    color: white;
 }
 
 @media (max-width : 900px){
