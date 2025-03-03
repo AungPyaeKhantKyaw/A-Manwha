@@ -120,6 +120,10 @@ nav ul li a{
 }
 
 @media (max-width : 900px){
+    *{
+        box-sizing: border-box;
+    }
+    
     nav a{
         display: none;
     }
