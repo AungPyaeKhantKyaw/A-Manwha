@@ -126,13 +126,24 @@ nav ul li a{
 
     #menu-toggle{
         display: block;
+        padding-left: 15px;
     }
 
     #menu-toggle:checked~ #nav-link{
         display: flex;
     }
+    
+    #nav-links{
+        display: none;
+    }
 
+    #profile a{
+        display: none;
+    }
 
+    #profile{
+        padding-right: 15px;
+    }
 }
 
 
