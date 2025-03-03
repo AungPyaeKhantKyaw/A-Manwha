@@ -44,4 +44,14 @@ input[type="search"]::-webkit-search-results-decoration {
     display: none;
 }
 
+@media (max-width : 900px){
+    #search{
+        width: 80dvw;
+        margin-left: 5px;
+    }
+
+    #search_bar label{
+        display: none;
+    }
+}
 
