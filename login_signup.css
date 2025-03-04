@@ -53,3 +53,19 @@ button {
     font-size: 10px;
     height: 0px;
 }
+
+@media (max-width: 900px){
+    #a{
+        background-color: #1E222B;
+        width: 100%;
+    }
+
+    #form h2{
+        color: white;
+    }
+
+    #back a{
+        color: white;
+    }
+
+}
